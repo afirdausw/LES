@@ -95,6 +95,6 @@ public class NewClass3 {
 
         System.out.printf("%.2f", harga);
         System.out.println("\n");
-        System.out.printf("%s%n", NumberFormat.getCurrencyInstance(Locale.ITALY).format(harga));
+        System.out.printf("%s%n", NumberFormat.getCurrencyInstance(Locale.ITALY).format(harga)); //TES
     }
 }
